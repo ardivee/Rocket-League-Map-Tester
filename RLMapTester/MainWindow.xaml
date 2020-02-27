@@ -1,0 +1,19 @@
+﻿<Window x:Class="RLMapTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RLMapTester"
+        mc:Ignorable="d"
+        Title="Rocket League Map Tester" Height="450" Width="800" Icon="rltest_logo_fav.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#1f1f1f">
+
+        <ListView x:Name="MapList" Foreground="#fff" Background="#1f1f1f" Margin="10,10,427,39" ></ListView>
+
+        <Image  Source="rltest_logo.png" Margin="372,10,10,39"/>
+        <Button x:Name="RefreshBtn" ToolTip="Update the map list" Foreground="#fff" Background="#3e3e3e" Click="RefreshBtn_Click" Content="Refresh List" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="75"/>
+        <Button x:Name="UpdateBtn" ToolTip="Update map to test" Foreground="#fff" Background="#3e3e3e" Click="UpdateBtn_Click" Content="Update Map" HorizontalAlignment="Left" Margin="90,0,0,10" VerticalAlignment="Bottom" Width="75"/>
+        <Button x:Name="SettingsBtn" ToolTip="Open Settings" Foreground="#fff" Background="#3e3e3e" Click="SettingsBtn_Click" Content="Settings" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75"/>
+        <Label Content="Made by Ardivee" Foreground="#fff" HorizontalAlignment="Right" Margin="0,0,427,7" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

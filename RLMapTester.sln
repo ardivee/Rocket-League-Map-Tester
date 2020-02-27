@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLMapTester", "RLMapTester\RLMapTester.csproj", "{086F5CD5-AA67-4C9C-A8CE-A07D89DC778F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086F5CD5-AA67-4C9C-A8CE-A07D89DC778F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086F5CD5-AA67-4C9C-A8CE-A07D89DC778F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086F5CD5-AA67-4C9C-A8CE-A07D89DC778F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086F5CD5-AA67-4C9C-A8CE-A07D89DC778F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66812DFD-DBDE-4351-A8EF-2C6DDA6CA2C8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<Window x:Class="RLMapTester.SettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RLMapTester"
+        mc:Ignorable="d"
+        Title="Setting" Height="200" Width="726" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Background="#1f1f1f">
+        <Label ToolTip="Where your maps are stored" Content="Maps" Foreground="#fff" HorizontalAlignment="Left" Margin="9,7,0,0" VerticalAlignment="Top"/>
+        <Label ToolTip="Where your test map should be saved" Content="Mods" Foreground="#fff" HorizontalAlignment="Left" Margin="9,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="MapsFolder" Background="#1f1f1f" Foreground="#fff" Height="23" Margin="54,10,35,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="ModsFolder" Background="#1f1f1f" Foreground="#fff" Height="23" Margin="54,41,35,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <Button x:Name="SaveBtn" Click="SaveBtn_Click" Foreground="#fff" Background="#3e3e3e" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75"/>
+        <Button x:Name="SelectMapFolderBtn" Click="SelectMapFolderBtn_Click" Foreground="#fff" Background="#3e3e3e" Content="..." HorizontalAlignment="Right" Margin="0,13,10,0" VerticalAlignment="Top" Width="20"/>
+        <Button x:Name="SelectModFolderBtn" Click="SelectModFolderBtn_Click"  Foreground="#fff" Background="#3e3e3e" Content="..." HorizontalAlignment="Right" Margin="0,44,10,0" VerticalAlignment="Top" Width="20"/>
+
+    </Grid>
+</Window>
