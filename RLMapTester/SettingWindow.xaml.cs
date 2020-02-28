@@ -29,6 +29,7 @@ namespace RLMapTester
             ModsFolder.Text = Properties.Settings.Default.ModsFolder;
 
             mainWindow = window;
+
         }
 
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
